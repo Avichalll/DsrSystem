@@ -5,8 +5,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [
     tailwindcss(),
+    react()
   ],
-  plugins: [react()],
   define: {
     // Fix the process.env issue
     'process.env': {}
